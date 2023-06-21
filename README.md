@@ -1,6 +1,8 @@
-# WHOB Server
+# TokenURI Proxy Server
 
 Returns the data found at the token URI of the given contract with token ID.
+
+Can have the Node swapped with any Ethereum RPC node. Find free-to-use RPC's at https://ethereumnodes.com/
 
 ## Running Locally
 
