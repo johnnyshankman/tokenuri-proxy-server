@@ -47,7 +47,7 @@ app.get('/:contractaddress/:id', async (req, res) => {
         method: 'eth_call',
         params: [
           {
-            to: '0x5694010444cC8fbbed96c23a65FbC3714F624A26',
+            to: ethers.utils.getAddress(contractaddress),
             data: d,
           },
           'latest',
