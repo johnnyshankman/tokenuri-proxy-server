@@ -1,0 +1,6 @@
+{
+  "name": "TokenURI Proxy Server",
+  "description": "TokenURI Proxy Server",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
