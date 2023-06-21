@@ -19,6 +19,13 @@ npm run start
 npm run lint
 ```
 
+## Testing and Usage
+
+This should return Radioactive Punk #5
+```
+curl http://localhost:3000/0x5694010444cC8fbbed96c23a65FbC3714F624A26/5
+```
+
 Bot will run inside of terminal until killed.
 
 ## Deploying to Heroku
@@ -54,10 +61,3 @@ For more information about using Node.js on Heroku, see these Dev Center article
 - [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
 - [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
 - [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
-
-## Testing
-
-This should return Radioactive Punk #5
-```
-curl http://localhost:3000/0x5694010444cC8fbbed96c23a65FbC3714F624A26/5
-```
