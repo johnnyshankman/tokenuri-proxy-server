@@ -26,7 +26,7 @@ This should return Radioactive Punk #5
 curl http://localhost:3000/0x5694010444cC8fbbed96c23a65FbC3714F624A26/5
 ```
 
-Bot will run inside of terminal until killed.
+API will run until manually killed.
 
 ## Deploying to Heroku
 
