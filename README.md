@@ -50,9 +50,9 @@ One common issue is that if you have both a `package-lock.json` and `yarn.lock` 
 
 ## Documentation
 
-https://devcenter.heroku.com/articles/procfile
-https://devcenter.heroku.com/articles/git
-https://devcenter.heroku.com/articles/scaling
+* https://devcenter.heroku.com/articles/procfile
+* https://devcenter.heroku.com/articles/git
+* https://devcenter.heroku.com/articles/scaling
 
 For more information about using Node.js on Heroku, see these Dev Center articles:
 
