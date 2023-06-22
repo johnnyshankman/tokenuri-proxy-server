@@ -57,6 +57,8 @@ app.get('/:contractaddress/:id', async (req, res) => {
     const data = await response.json()
     const result = data.result
     const ressy = ethers.utils.toUtf8String(result)
+    // @dev: this is not flexible at all and is specific to on-chain data:application URLs
+    // @dev: it solves for the fact that ressy/result are left-padded with 0s when returning strings
     const indexy = ressy.indexOf('data:application')
     // cut out all text before the data:application occurence
     let theactualJSON = ressy.substring(indexy)
