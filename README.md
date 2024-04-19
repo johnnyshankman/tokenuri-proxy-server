@@ -6,6 +6,14 @@ Can have the Ethereum RPC Node swapped with any RPC, but currently uses CloudFla
 
 Made to be deployed easily as a Heroku web app.
 
+## Why Did I Build This?
+
+Lots of older Smart Contracts that live on Ethereum use the ERC721 and ERC1155 standards which force the developer to pick a "baseURI" that is then concatenated with the token's number in order to retrieve its `tokenURI`. In these cases, there's no clean way to fully migrate on-chain even if you have a beautiful renderer contract that returns a valid `tokenURI`.
+
+This proxy server can server as a bridge solution. You put your renderer on-chain, then simply standup this server to retrieve it when hit publicly using a web2 URL in line with the syntax of `baseURI`.
+
+Huzzah you are now as onchain as you're ever going to get!
+
 ## Running Locally
 
 ```sh
