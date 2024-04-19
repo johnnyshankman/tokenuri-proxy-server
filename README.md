@@ -16,7 +16,9 @@ In comes this proxy server as a bridge solution. You put your renderer on-chain 
 
 Huzzah you are now as onchain as you're ever going to get!
 
-## Running Locally
+## Usage and Running Locally
+
+First, fork this repo. Then to build:
 
 ```sh
 npm i
@@ -30,6 +32,8 @@ npm run lint
 ```
 
 ## Testing and Usage
+
+After forking this repo by default it is setup to retrieve the tokenURI from the contract on mainnet at `0x5694010444cC8fbbed96c23a65FbC3714F624A26`. You can override this by editing the code anytime.
 
 This should return Radioactive Punk #5
 ```
